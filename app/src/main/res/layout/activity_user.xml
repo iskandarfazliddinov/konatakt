@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fa"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".UserActivity">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/user_imge"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:padding="8dp"
+        android:src="@drawable/person"
+        app:civ_border_width="2dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Name:"
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/user_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/alegreya_sc"
+        android:gravity="center"
+        android:text="Iskandar Fazliddinov"
+        android:textColor="@color/black"
+        android:textSize="24sp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="PhoneNumber:"
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/user_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/alegreya_sc"
+        android:gravity="center"
+        android:text="+99893 226 30 66"
+        android:textColor="@color/black"
+        android:textSize="24sp" />
+</LinearLayout>
